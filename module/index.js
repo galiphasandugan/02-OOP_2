@@ -46,7 +46,7 @@ module.exports = {
   };
 
 
-/* --------------------------------------------------- */
+/* --------------------------------------------------- *
 
 module.exports.test1 = function () {
     console.log("test1 çlıştı");
@@ -62,6 +62,27 @@ module.exports.variable = 'new-value'
 
 
 /* --------------------------------------------------- */
+// ! node.js de bu şekilde kullanacaz 
+module.exports= {
+    test1:function(){
+        console.log("test1 çlıştı")
+    },
+    test2:function(){
+        console.log("test2 çlıştı")
+    },
+    test3:function(){
+        console.log("test3 çlıştı")
+    },
+
+    variable: 'new-value'
+  };
+
+
+
+
+
+
+
 /* --------------------------------------------------- */
 /* --------------------------------------------------- */
 /* --------------------------------------------------- */
